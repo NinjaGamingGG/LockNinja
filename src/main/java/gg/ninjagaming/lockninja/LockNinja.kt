@@ -23,7 +23,7 @@ class LockNinja : JavaPlugin() {
 
             //Lock weather and set it to clear
             it.setGameRule(GameRule.DO_WEATHER_CYCLE, false)
-            it.clearWeatherDuration = 9999
+            it.clearWeatherDuration = 1
             ServerMessageHelper.sendMessage("Weather locked for world: ${it.name}")
         }
 
