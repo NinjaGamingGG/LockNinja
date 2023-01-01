@@ -1,0 +1,7 @@
+name: LockNinja
+version: '${project.version}'
+main: gg.ninjagaming.lockninja.LockNinja
+api-version: 1.19
+authors: [ Luca_Taschner ]
+description: Lock weather and time for lobby servers
+website: hrrps://ninjagaming.gg
